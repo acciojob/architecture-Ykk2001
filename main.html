@@ -1,16 +1,110 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HTML Webpage Creation</title>
 	<link rel="stylesheet" href="styles.css">
+	<style>
+		body {
+			margin: 0;
+			padding: 20px;
+			display: flex;
+			justify-content: center;
+			background-color: #e8ede8;
+			font-family: Arial, sans-serif;
+		}
+
+		.container {
+			width: 1100px;
+			background-color: #ffffff;
+			padding: 20px;
+			box-shadow: 0 0 10px rgba(0,0,0,0.15);
+		}
+
+		.imageContainer {
+			text-align: center;
+			margin-bottom: 20px;
+		}
+
+		.imageContainer img {
+			max-width: 100%;
+			height: auto;
+			border-radius: 5px;
+		}
+
+		table {
+			width: 100%;
+			border-collapse: collapse;
+			background-color: #f7f7f7;
+		}
+
+		td {
+			border: 1px solid #555;
+			padding: 10px;
+			vertical-align: top;
+			text-align: center;
+		}
+
+		td img {
+			max-width: 100%;
+			height: auto;
+		}
+
+		td:nth-child(2) {
+			text-align: left;
+			font-size: 15px;
+			line-height: 1.6;
+		}
+	</style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+	<!-- Entire body must be written by student -->
+	<script type="text/javascript" src="./script.js"></script>
 
+	<div class="container">
+		<!-- Top Image -->
+		<div class="imageContainer">
+			<img src="https://tse2.mm.bing.net/th/id/OIP.avDTXSIgtI3zT1VzxdICeAHaE8?pid=Api&P=0&h=180" alt="Architecture Top">
+		</div>
+
+		<!-- Table -->
+		<table>
+			<tr>
+				<td width="200">
+					<img src="https://tse1.mm.bing.net/th/id/OIP.sl_tSqF8d9iv-2pxw2PkyAHaEK?pid=Api&P=0&h=180" alt="Design 1">
+				</td>
+				<td width="600">
+					Floor Plans
+					<ol type="A">
+						<li>Kitchen</li>
+						<li>Bathroom</li>
+						<li>Using Slabs</li>
+						<li>Georgian Home</li>
+						<li>Sketching Assignment</li>
+					</ol>
+				</td>
+				<td width="200">
+					<img src="https://tse3.mm.bing.net/th/id/OIP.ADOznDMtv0xDlVAi76Nc-QHaEo?pid=Api&P=0&h=180" alt="Design 2">
+				</td>
+			</tr>
+			<tr>
+				<td width="200">
+					<img src="https://cdn.houseplansservices.com/product/idr1nv2g49h6ep1rmm47o7okpi/w800x533.jpg?v=2" alt="Bedroom Plan">
+				</td>
+				<td width="600">
+					<p>
+						When you envisage your bedroom, you think of a private sanctuary that offers peace and a good night's sleep. 
+						However, crafting this safe space requires more than just aesthetics. 
+						A well-designed bedroom layout, considering both functionality and comfort, 
+						is key to promoting a peaceful and restful environment.
+					</p>
+				</td>
+				<td width="200">
+					<img src="https://tse4.mm.bing.net/th/id/OIP.NtQMvtfX2jK3Qj_7a7xmTwHaE8?pid=Api&P=0&h=180" alt="Bedroom Design">
+				</td>
+			</tr>
+		</table>
+	</div>
 </body>
-
 </html>
